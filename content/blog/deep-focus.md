@@ -2,7 +2,7 @@
 external: false
 title: The Power of Deep Focus and Deep Work. Unlocking Your Productivity Potential
 description: Ikuti tutorial nya di link youtube yang saya share di bawah.
-date: 2024-03-22
+date: 2024-03-29
 ---
 
 In today's fast-paced world filled with distractions, achieving deep focus and engaging in deep work has become more challenging than ever. With constant notifications, social media feeds, and endless to-do lists vying for our attention, it's easy to fall into a cycle of shallow work that leaves us feeling overwhelmed and unproductive. However, by mastering the art of deep focus and deep work, we can unlock our true productivity potential and achieve meaningful results in both our personal and professional lives.
