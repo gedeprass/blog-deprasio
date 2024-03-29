@@ -1,9 +1,11 @@
 ---
 external: false
-title: deprasio
+title: begining
 description: On his quarter-life maintenance story.
 date: 2024-03-22
 ---
 
-It's a beautiful world out there.
+Hello depras here, just say hello through my email if you want to say some thing 
+email : prasetyamaha99@gmail.com
+
 From blog-deprasio.vercel.app
