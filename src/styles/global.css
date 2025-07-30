@@ -214,3 +214,64 @@
 
     /* ------ REUSABLE UTILS - END ------ */
 }
+
+/* 100daycode specific styles */
+.screenshot-container {
+    @apply my-8 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700;
+}
+
+.screenshot {
+    @apply w-full max-w-2xl mx-auto rounded-lg shadow-lg;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    @apply text-center text-sm text-gray-600 dark:text-gray-400 mt-2 italic;
+}
+
+/* Progress indicator */
+.progress-bar {
+    @apply w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2 mb-4;
+}
+
+.progress-fill {
+    @apply bg-gradient-to-r from-blue-500 to-green-500 h-2 rounded-full transition-all duration-300;
+}
+
+/* Challenge card styling */
+.challenge-card {
+    @apply bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 mb-6 shadow-sm hover:shadow-md transition-shadow;
+}
+
+.challenge-header {
+    @apply flex items-center gap-3 mb-4;
+}
+
+.challenge-icon {
+    @apply text-2xl;
+}
+
+.challenge-title {
+    @apply text-xl font-bold text-gray-900 dark:text-white;
+}
+
+.challenge-description {
+    @apply text-gray-600 dark:text-gray-300 mb-4;
+}
+
+/* Code block improvements */
+pre {
+    @apply rounded-lg shadow-sm border border-gray-200 dark:border-gray-700;
+}
+
+/* Better list styling */
+ul li, ol li {
+    @apply mb-2;
+}
+
+/* Quote styling */
+blockquote {
+    @apply border-l-4 border-blue-500 pl-4 py-2 bg-blue-50 dark:bg-blue-900/20 rounded-r-lg;
+}

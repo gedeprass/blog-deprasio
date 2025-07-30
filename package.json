@@ -8,7 +8,10 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "new-day": "node scripts/daily-update.js",
+    "add-image": "node scripts/add-image.js",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@astrojs/prism": "^1.0.2",
