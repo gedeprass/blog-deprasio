@@ -1,6 +1,6 @@
 ---
 external: false
-draft: true
+draft: false
 title: "Day X – [Judul Tantangan]"
 description: "[Deskripsi singkat tentang apa yang dipelajari hari ini]"
 date: 2025-01-01
