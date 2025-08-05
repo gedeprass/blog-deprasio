@@ -2,30 +2,27 @@
 external: false
 draft: false
 title: "Day 1 – Belajar Source Link dan Cara Memanggil Gambar dengan ./ dan ../"
-description: "Hari ke-1 #100DaysCode: belajar cara membuat link, menampilkan gambar, dan memahami penggunaan ./ dan ../ untuk menghubungkan file."
+description: "Hari ke-1 #100DaysOfCode: belajar dasar link, gambar, dan struktur folder di HTML."
 date: 2025-07-30
 ---
 
-## 🚀 Day 1 – Belajar Source Link dan Cara Memanggil Gambar dengan ./ dan ../
+## Day 1 – Belajar Source Link dan Cara Memanggil Gambar dengan `./` dan `../`
 
-Hari ini aku mengulang lagi dasar HTML tentang **cara membuat link** dan **menampilkan gambar di halaman web**.  
-Selain itu, aku juga belajar bagaimana cara menghubungkan file yang ada di folder berbeda menggunakan simbol `./` dan `../`.
+Hari ini aku mulai lagi dari dasar HTML. Fokusnya ke hal-hal yang sering disepelekan tapi sebenarnya penting banget: **cara bikin link**, **menampilkan gambar**, dan paling bikin bingung di awal, yaitu penggunaan `./` dan `../`.
 
-Sebelumnya, aku sering bingung kapan harus pakai `./` atau `../`, tapi hari ini jadi lebih jelas.
-
----
-
-### 📌 Apa yang aku pelajari hari ini
-✅ Cara membuat **link ke website lain** (misalnya link ke Google).  
-✅ Cara membuat **link antar halaman** di dalam website kita sendiri.  
-✅ Cara menampilkan **gambar di halaman web** menggunakan tag `<img>`.  
-✅ Memahami perbedaan penggunaan `./` (untuk file di folder yang sama) dan `../` (untuk file di luar folder).  
+Aku udah sering ngalamin error waktu gambar nggak muncul, atau link nggak jalan, ternyata karena path-nya salah. Sekarang mulai paham logikanya.
 
 ---
 
-### 🗂 Contoh Struktur Project
+### Apa aja yang aku pelajari:
+- ✅ Bikin link ke website lain (misalnya Google)
+- ✅ Bikin link antar halaman di dalam website sendiri
+- ✅ Tampilkan gambar pakai tag `<img>`
+- ✅ Bedain kapan pakai `./` dan `../` buat manggil file
 
-Supaya lebih paham, aku membayangkan project dengan struktur seperti ini:
+---
+
+### Struktur folder project-nya kira-kira begini:
 
 ```
 project/
@@ -39,36 +36,38 @@ project/
 │   └── contact.html
 ```
 
-📌 **Apa gunanya `./` dan `../`?**  
-- `./` → untuk menghubungkan file di **folder yang sama**.  
-- `../` → untuk naik satu level ke luar folder saat ini, lalu masuk ke folder lain.  
+#### Penjelasan:
+- `./` artinya **di folder yang sama**
+- `../` artinya **naik satu folder ke atas**
 
 ---
 
-### 💻 Contoh Kode
+### Contoh kode yang aku coba:
 
 ```html
-<!-- Link ke file di folder yang sama -->
+<!-- Link ke halaman lain dalam folder yang sama -->
 <a href="./about.html">About Us</a>
 
-<!-- Link ke file yang ada di luar folder -->
+<!-- Link ke file di luar folder -->
 <a href="../index.html">Home</a>
 
-<!-- Menampilkan gambar -->
-<img src="./images/logo.png" alt="Logo Website">
+<!-- Tampilkan gambar -->
+<img src="../images/logo.png" alt="Logo Website">
 ```
 
 ---
 
-### 🖼 Screenshot Hari Ini
+### Screenshot Hari Ini
 
 ![Day 1 Screenshot](../../public/images/100daycode/day-1.png)
 
 ---
 
-### 🎯 Rencana Besok
-➡ Clone project blog ke komputer dan mulai menyiapkan folder **100daycode** untuk tantangan ini.  
+### Target Besok
+- Git Clone project blog ke lokal
+- Siapkan folder khusus **100daycode**
+- Mulai nulis hari ke-2 dengan hasil coding sendiri
 
 ---
 
-💡 *Catatan:* Hari ini aku belajar lagi dasar HTML yang kelihatannya simpel, tapi sebenarnya penting banget untuk project web ke depan.
+Gitu dulu buat hari ini. Kelihatannya simpel, tapi bisa jadi masalah besar kalau nggak paham. Besok lanjut yang lebih seru 
