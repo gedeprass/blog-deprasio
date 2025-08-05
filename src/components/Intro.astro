@@ -1,9 +1,9 @@
 ---
 import { readAll } from "../lib/markdoc/read";
-import { blog } from "../lib/markdoc/frontmatter.schema";
+import { daycode100 } from "../lib/markdoc/frontmatter.schema";
 const posts = await readAll({
-  directory: "blog",
-  frontmatterSchema: blog,
+  directory: "daycode100",
+  frontmatterSchema: daycode100,
 });
 
 const sortedPosts = posts
@@ -26,11 +26,11 @@ const sortedPosts = posts
         De Pras
       </span>
     </h1>
-    <p class="text-center text-2xl pb-4">Coder.Learner.from Indonesia</p>
+    <p class="text-center text-2xl pb-4">Web Developer from Bali, Indonesia</p>
   </div>
   <div>
-    <p>Halo semua selamat datang, jadi saya buat blog ini untuk sarana saya belajar mebuat tulisan blog.</p>
-    <p>Selamat membaca tulisan - tulisan saya berikut ini:</p>
+    <p>Halo semua selamat datang, jadi saya buat daycode100 ini untuk sarana saya mendokumentasikan apa yang saya pelajari</p>
+    <p>Selamat membaca:</p>
   </div>
   <div>
     <ul>
@@ -64,7 +64,7 @@ const sortedPosts = posts
                   </a>
                 ) : (
                   <a
-                    href={`/blog/${post.slug}`}
+                    href={`/daycode100/${post.slug}`}
                     class="unset
                         transition-[background-size] duration-300 
                         bg-gradient-to-r bg-left-bottom bg-no-repeat
