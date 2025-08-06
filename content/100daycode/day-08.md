@@ -14,14 +14,12 @@ di materi kali ini aku belajar tentang:
 - re-assign variable menggunakan let
 - ketika variable let di re assign lalu di console, hasilnya akan keluar sesuai urutan let yg di assign
 
+## Target Besok
+
+- ngulik lebih dalam tentang variable dan operator dan coba menyelesaikan tugas di javascript info sesuai arahan odin project
+
+Gitu dulu buat hari ini. Kelihatannya simpel, tapi bisa jadi masalah besar kalau nggak paham. Besok lanjut yang lebih seru
 
 ```
 
 
-### Target Besok
-
-- ngulik lebih dalam tentang variable dan operator dan coba menyelesaikan tugas di javascript info sesuai arahan odin project
-
----
-
-Gitu dulu buat hari ini. Kelihatannya simpel, tapi bisa jadi masalah besar kalau nggak paham. Besok lanjut yang lebih seru
