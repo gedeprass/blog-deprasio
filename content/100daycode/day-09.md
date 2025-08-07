@@ -2,7 +2,7 @@
 external: false
 draft: false
 title: "Day 9 – Install node dan kenapa menggunakan node js"
-date: 2025-08-06
+date: 2025-08-07
 ---
 
 ## Day 9 – Install node dan kenapa menggunakan node js
